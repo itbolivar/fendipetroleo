@@ -1,0 +1,63 @@
+.color-menu{
+    color: #04458F;
+    font-weight: 500;
+}
+
+.main-header {
+    background-color: white;
+	z-index: 200;
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: sticky; /* Hacemos que la cabecera tenga una posición fija */
+}
+
+.m-top{
+    margin-top: 30px !important; 
+}
+
+.m-left{
+    margin-left: 30px;
+}
+
+.url-congreso{
+    width: 575px;
+    box-shadow: 6px 6px 8px rgba(0,0,0,0.5);
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    border-radius: 10px;
+    font-size: 12px;
+    margin-top: 12px;
+    padding-left: 15px;
+}
+
+.nolink{
+    text-decoration: none; 
+    color: #000;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.btn-plan{
+    font-size: 14px; 
+    padding: 0px 10px; 
+    margin: 5px;
+    width: 70%;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover{
+    color: #FFFFFF !important;
+    background: #004498;
+}
+
+.dropdown > .dropdown-menu a:hover, .dropdown > .dropdown-menu a:focus {
+    color: #FFFFFF;
+    background: #004498;
+    outline: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #004498 !important;
+}
+
